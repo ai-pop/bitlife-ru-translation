@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.venv/
+venv/
+
+# APK and large files
+*.apk
+*.ap_
+*.dex
+*.class
+
+# Build artifacts
+build/
+dist/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+work/
+decoded/
+extracted/
+*.dat
+!global-metadata.dat
+
+# Secrets
+.env
+*.key
+*.pem
+*.keystore
